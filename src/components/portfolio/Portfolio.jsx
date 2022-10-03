@@ -5,6 +5,7 @@ import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
 import IMG5 from '../../assets/portfolio5.png'
 import IMG6 from '../../assets/portfolio6.jpg'
+import './portfolio.css'
 
 const Portfolio = () => {
   return (
@@ -16,34 +17,63 @@ const Portfolio = () => {
         <article className="portfolio__item">
           <div className="portfolio__item-image"></div>
           <img src={IMG1} alt="" /> 
-                    <h3>This is a portfolio item title</h3>
-          <a href="https//github.com/ToberJakub" className='btn' target='_blank'>Github</a>
-          <a href="https://dribbble.com/Alien_pixels" className='btn btn-primary' target='_blank'>Live Demo</a>
+                    <h3>This is a portfolio item title3</h3>
+                    <div className="portfolio__item-cta">
+                    <a href="https//github.com/ToberJakub" className='btn' target='_blank'>Github</a>
+          <a href="https://dribbble.com/Alien_pixels" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
+          </div>
         </article>
 
         <article className="portfolio__item">
           <div className="portfolio__item-image"></div>
-          <img src={IMG1} alt="" /> 
-                    <h3>This is a portfolio item title</h3>
-          <a href="https//github.com/ToberJakub" className='btn' target='_blank'>Github</a>
-          <a href="https://dribbble.com/Alien_pixels" className='btn btn-primary' target='_blank'>Live Demo</a>
+          <img src={IMG2} alt="" /> 
+                    <h3>This is a portfolio item title3</h3>
+                    <div className="portfolio__item-cta">
+                    <a href="https//github.com/ToberJakub" className='btn' target='_blank'>Github</a>
+          <a href="https://dribbble.com/Alien_pixels" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
+          </div>
         </article>
 
         <article className="portfolio__item">
           <div className="portfolio__item-image"></div>
-          <img src={IMG1} alt="" /> 
-                    <h3>This is a portfolio item title</h3>
-          <a href="https//github.com/ToberJakub" className='btn' target='_blank'>Github</a>
-          <a href="https://dribbble.com/Alien_pixels" className='btn btn-primary' target='_blank'>Live Demo</a>
+          <img src={IMG3} alt="" /> 
+                    <h3>This is a portfolio item title3</h3>
+                    <div className="portfolio__item-cta">
+                    <a href="https//github.com/ToberJakub" className='btn' target='_blank'>Github</a>
+          <a href="https://dribbble.com/Alien_pixels" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
+          </div>
         </article>
 
         <article className="portfolio__item">
           <div className="portfolio__item-image"></div>
-          <img src={IMG1} alt="" /> 
-                    <h3>This is a portfolio item title</h3>
-          <a href="https//github.com/ToberJakub" className='btn' target='_blank'>Github</a>
-          <a href="https://dribbble.com/Alien_pixels" className='btn btn-primary' target='_blank'>Live Demo</a>
+          <img src={IMG4} alt="" /> 
+                    <h3>This is a portfolio item title3</h3>
+                    <div className="portfolio__item-cta">
+                    <a href="https//github.com/ToberJakub" className='btn' target='_blank'>Github</a>
+          <a href="https://dribbble.com/Alien_pixels" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
+          </div>
         </article>
+
+        <article className="portfolio__item">
+          <div className="portfolio__item-image"></div>
+          <img src={IMG5} alt="" /> 
+                    <h3>This is a portfolio item title3</h3>
+                    <div className="portfolio__item-cta">
+                    <a href="https//github.com/ToberJakub" className='btn' target='_blank'>Github</a>
+          <a href="https://dribbble.com/Alien_pixels" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
+          </div>
+        </article>
+
+        <article className="portfolio__item">
+          <div className="portfolio__item-image"></div>
+          <img src={IMG6} alt="" /> 
+                    <h3>This is a portfolio item title3</h3>
+                    <div className="portfolio__item-cta">
+                    <a href="https//github.com/ToberJakub" className='btn' target='_blank'>Github</a>
+          <a href="https://dribbble.com/Alien_pixels" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
+          </div>
+        </article>
+
       </div>
     </section>
   )
