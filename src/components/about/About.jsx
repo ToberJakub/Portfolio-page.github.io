@@ -21,25 +21,25 @@ const About = () => {
       <div className="about__cards">
         <article className='about__card'>
           <FaAward className='about__icon'/>
-        <h5>Experience</h5>
-        <small>CCCC</small>
+        <h5>English</h5>
+        <small>B2</small>
         </article>
 
         <article className='about__card'>
           <FaAward className='about__icon'/>
-        <h5>Experience</h5>
-        <small>CCCC</small>
+        <h5>Working hard</h5>
+        <small>Always</small>
         </article>
 
         <article className='about__card'>
           <FaAward className='about__icon'/>
-        <h5>Experience</h5>
-        <small>CCCC</small>
+        <h5>Communicate Skills</h5>
+        <small>High</small>
         </article>
         </div>
 
         <p> 
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias fugit iure inventore! Similique tempora blanditiis sed sunt non quas? Dolorem quam assumenda possimus quasi tempore ipsum accusantium dolores? Odio, impedit.
+          I'm 19 years old with a dream of becoming Frontend Developer.I am working with React, Javascript, HTML, CSS almost a year now. I've completed YouCode Frontend Developer internet course. My main goal is to develop my skills until i will be living my dream :)
         </p>
 
         <a href="#contact" className='btn btn-primary'>Let's Talk</a>
