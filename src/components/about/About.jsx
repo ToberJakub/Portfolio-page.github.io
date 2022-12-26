@@ -39,7 +39,7 @@ const About = () => {
         </div>
 
         <p> 
-          I'm 19 years old with a dream of becoming Frontend Developer.I am working with React, Javascript, HTML, CSS almost a year now. I've completed YouCode Frontend Developer internet course. My main goal is to develop my skills until i will be living my dream :)
+          I'm 19 years old with a dream of becoming Frontend Developer. I am working with React, Javascript, HTML, CSS over a year now. I've completed YouCode Frontend Developer internet course. My main goal is to develop my skills.
         </p>
 
         <a href="#contact" className='btn btn-primary'>Let's Talk</a>

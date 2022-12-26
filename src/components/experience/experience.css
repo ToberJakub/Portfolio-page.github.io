@@ -1,7 +1,7 @@
 .experience__container {
+    width: 200px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+    justify-content: center;
 } 
 
 
@@ -33,7 +33,6 @@
 
 .experience__details {
     display: flex;
-    gap: 1rem;
 }
 
 .experience__details-icon {
